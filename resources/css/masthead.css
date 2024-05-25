@@ -1,0 +1,42 @@
+.masthead {
+  margin-bottom: 150px;
+  height: 60vh;
+  min-height: 500px;
+  background-image: url('/public/images/media/header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: 80px; */
+  background-attachment: fixed;
+  
+}
+
+.title-masthead{
+  position: relative;
+}
+
+.title-masthead::before{
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 32%;
+  width:30%;
+  height: 6px;
+  background:var(--color-A);
+  transition: .5s;
+}
+
+/* .title-masthead:hover:before{
+width: 100%;
+} */
+
+.shadow_pers {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19); 
+}
+
+@media screen and (max-width:992px) {
+
+  .masthead {
+    margin-bottom: 10px;    
+  }
+}

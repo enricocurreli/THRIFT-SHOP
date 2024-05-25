@@ -1,0 +1,12 @@
+
+
+.btn-category{
+
+
+    background-color: var(--color-A);
+}
+
+.btn-category:hover {
+    background-color: var(--color-S);
+    
+  }

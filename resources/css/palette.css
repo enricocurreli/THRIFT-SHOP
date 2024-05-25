@@ -1,0 +1,16 @@
+:root{
+    --color-P: rgb(61, 61, 118);
+    --color-S: #47b4a8;
+    /* --color-A: #50c5b7; */   
+    --color-A: #50c5b7;
+    --color-BG: #50c5b7;
+    --color-body: #F2DED5;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(245, 228, 216, 1) 50%, rgba(255, 255, 255, 1) 70%);
+}

@@ -1,0 +1,25 @@
+.form {
+    color: black !important;
+    box-shadow: none !important;
+    /* border: 1px solid var(--color-P); */
+    /* background-color: var(--color-body); */
+}
+
+form .btn {
+    background-color: var(--color-A);
+    padding: 10px;
+    border-color: var(--color-A) !important;
+}
+
+form .btn:hover {
+    background-color: var(--color-S);
+    padding: 10px;
+    border-color: var(--color-S) !important;
+}
+
+.form_input_focused:focus {
+    box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    -webkit-box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    -moz-box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    color: var(--color-A) !important;
+}

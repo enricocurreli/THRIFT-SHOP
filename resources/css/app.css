@@ -1,0 +1,25 @@
+@import 'bootstrap';
+
+@import 'bootstrap-icons';
+
+@import './display-alert.css';
+
+@import'./masthead.css';
+
+@import'./navbar.css';
+
+@import'./card.css';
+
+@import'./palette.css';
+
+@import './form.css';
+
+@import './category.css';
+
+@import './standard.css';
+
+@import './search.css';
+
+@import './revisor.css';
+
+@import './show.css';

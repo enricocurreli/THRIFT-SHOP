@@ -1,0 +1,152 @@
+.color-P {
+    color: var(--color-P) !important;
+}
+
+.btn_standard {
+    color: white;
+    background-color: var(--color-A);
+    transition: 0.5s;
+}
+
+.btn_standard:hover {
+    background-color: var(--color-S);
+    color: white;
+    transition: 0.5s;
+}
+
+.transition_05 {
+    transition: 0.5s;
+}
+
+.transition_03 {
+    transition: 0.3s;
+}
+
+/* .title-page{
+    position: relative;
+    color: var(--color-P);
+}
+
+.title-page::before{
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 38%;
+ 
+    width:100px;
+    height: 6px;
+    background:var(--color-A);
+
+    transition: .5s;
+        transform: translate(0,-50%);
+     width:30%;
+} */
+
+.input_focused:focus {
+    box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    -webkit-box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    -moz-box-shadow: 0px 0px 10px 1px var(--color-A) !important;
+    color: var(--color-A) !important;
+}
+
+.padding {
+    padding-top: 80px;
+}
+
+.padding2 {
+    padding-top: 300px;
+}
+
+.box-auth {
+
+    margin-bottom: 40% !important;
+}
+
+.box-category {
+
+    margin-bottom: 40% !important;
+}
+
+.box-show {
+
+    margin-bottom: 20% !important;
+}
+
+.box-revisione {
+
+    margin-top: 150px !important;
+    margin-bottom: 23% !important;
+
+}
+
+.rounded_circle {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    top: -10px;
+    left: -10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 13px;
+
+}
+
+.dropdown_lang {
+    background-color: transparent !important;
+    border: none !important;
+    max-width: 10%;
+}
+
+.btn-lang {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    transition: 0.3s;
+    margin: 4px 5px 0px 0px !important;
+}
+
+.btn-lang:hover {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    scale: 110%;
+    padding: 0 !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+
+.col_category{
+
+    border-left: 3px solid var(--color-A) !important;
+
+}
+
+@media screen and (max-width:992px) {
+
+    .padding {
+        padding-top: 0px;
+    }
+
+    .title-page {
+        position: relative;
+        margin-top: 100px;
+    }
+}
+
+
+.title-page {
+    border-bottom: 4px solid var(--color-A);
+    width: fit-content;
+    padding-bottom: 20px;
+    color: var(--color-P);
+}

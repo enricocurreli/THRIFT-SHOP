@@ -1,0 +1,9 @@
+.my_alert-danger{
+
+    background-color: rgba(246, 7, 7, 0.886);
+}
+
+.my-alert-success{
+
+    background-color: var( --color-A);
+}

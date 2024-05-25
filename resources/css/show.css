@@ -1,0 +1,16 @@
+.title {
+    font-weight: 300 !important;
+}
+
+.subtitle {
+    font-weight: 300 !important;
+}
+
+.price {
+    font-weight: 700 !important;
+    color: var(--color-A);
+}
+
+.body {
+    font-weight: 300 !important;
+}
